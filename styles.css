@@ -464,6 +464,11 @@ section {
     .intro, .timetable, .membership, .gallery, .reviews, .find {
         padding: 2rem;
     }
-    
+    .stats {
+        flex-wrap: wrap;
+    }
+    .stat {
+        width: 45%;
+    }
 
 }

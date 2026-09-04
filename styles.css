@@ -469,6 +469,7 @@ section {
     }
     .stat {
         width: 45%;
+        gap: 1rem;
     }
 
 }

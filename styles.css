@@ -424,9 +424,10 @@ address {
 }
 
 .merch-item img {
+    background: #ffffff;
     width: 100%;
-    height: 260px;
-    object-fit: contain;
+    height: 350px;
+    object-fit: cover;
     border-radius: 2px;
 }
 

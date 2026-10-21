@@ -427,7 +427,7 @@ address {
 .merch-item img {
     background: #ffffff;
     width: 100%;
-    height: 325px;
+    height: 350px;
     object-fit: contain;
     border-radius: 2px;
     margin-top: 1rem;
@@ -443,7 +443,7 @@ address {
     text-transform: uppercase;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border-radius: 2px;
 }
 

@@ -436,10 +436,6 @@ address {
     position: relative;
 }
 
-.img-wrap p {
-    color: var(--coal);
-}
-
 .best-seller {
     position: absolute;
     top: 1rem;
@@ -465,6 +461,10 @@ address {
     font-family: "Anton", sans-serif;
     font-size: 1.5rem;
     color: var(--drab);
+}
+
+.img-wrap p {
+    color: var(--coal);
 }
 
 .foot {

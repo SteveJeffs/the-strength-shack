@@ -435,7 +435,7 @@ address {
 
 .best-seller {
     position: absolute;
-    top: 5rem;
+    top: 0.5rem;
     left: 1rem;
     background: var(--drab);
     color: var(--coal);

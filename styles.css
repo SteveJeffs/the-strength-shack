@@ -436,9 +436,13 @@ address {
     position: relative;
 }
 
+.img-wrap p {
+    color: var(--coal);
+}
+
 .best-seller {
     position: absolute;
-    top: 0.5rem;
+    top: 1rem;
     left: 0.5rem;
     background: var(--drab);
     color: var(--coal);
@@ -446,7 +450,7 @@ address {
     text-transform: uppercase;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     border-radius: 2px;
     margin-bottom: 0.5rem;
 }

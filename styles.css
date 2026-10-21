@@ -432,8 +432,14 @@ address {
     margin-top: 1rem;
 }
 
+.img-wrap {
+    position: relative;
+}
+
 .best-seller {
-    display: inline-block;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
     background: var(--drab);
     color: var(--coal);
     padding: 0.3rem 0.6rem;
@@ -456,7 +462,6 @@ address {
     font-size: 1.5rem;
     color: var(--drab);
 }
-
 
 .foot {
     margin: 1rem auto;

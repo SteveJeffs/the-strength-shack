@@ -446,7 +446,7 @@ address {
     text-transform: uppercase;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 500;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     border-radius: 2px;
     margin-bottom: 0.5rem;
 }
@@ -465,6 +465,7 @@ address {
 
 .img-wrap p {
     color: var(--coal);
+    font-size: 0.9rem;
 }
 
 .foot {

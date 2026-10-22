@@ -564,4 +564,8 @@ section {
         gap: 1rem;
     }
 
+    .merch-item img {
+        height: 250px;
+    }
+
 }

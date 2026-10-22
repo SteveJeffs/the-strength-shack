@@ -21,6 +21,7 @@ header {
     position: sticky;
     top: 0;
     background-color: rgba(12, 12, 13, 0.85);
+    z-index: 100;
 }
 
 body {
@@ -466,7 +467,7 @@ address {
 .merch-btn {
     display: block;
     width: fit-content;
-    margin: 1.5rem auto 0;
+    margin: 2rem auto 0;
 }
 
 .img-wrap p {

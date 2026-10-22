@@ -463,6 +463,12 @@ address {
     color: var(--drab);
 }
 
+.merch-btn {
+    display: block;
+    width: fit-content;
+    margin: 1.5rem auto 0;
+}
+
 .img-wrap p {
     color: var(--coal);
     font-size: 0.9rem;

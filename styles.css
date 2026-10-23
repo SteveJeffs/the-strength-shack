@@ -569,4 +569,8 @@ section {
         height: 250px;
     }
 
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
 }

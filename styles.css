@@ -577,4 +577,7 @@ section {
         grid-template-columns: 1fr;
     }
 
+    .nav-hide-mobile {
+        display: none;
+    }
 }

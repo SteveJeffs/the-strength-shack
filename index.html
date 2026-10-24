@@ -21,9 +21,11 @@
                 <li><a href="#classes">Classes</a></li>
                 <li><a href="#pricing">Price</a></li>
                 <li><a href="#open-gym">Open Gym</a></li>
-                <li class="nav-hide-mobile"><a href="#gallery">Gallery</a></li>
-                <li><a class="btn btn-solid" href="#contact">Call Now</a></li>
+                <li><a href="#gallery">Gallery</a></li>
             </ul>
+
+            <a class="btn btn-solid nav-cta" href="#contact">Call Now</a>
+            <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
         </nav>
     </header>
     <section class="hero" id="top">
@@ -110,7 +112,8 @@
             <div class="card">
                 <p class="tier">Unlimited Classes - Adults</p>
                 <p class="price">£50<span>/Month</span></p>
-                <p class="descrip">Every class, every week, plus open gym at no extra cost. The best value if you're training two or more times a week.
+                <p class="descrip">Every class, every week, plus open gym at no extra cost. The best value if you're
+                    training two or more times a week.
                 </p>
             </div>
 
@@ -321,6 +324,24 @@
             </div>
         </div>
     </footer>
+
+<script>
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.querySelector('nav ul');
+
+    toggle.addEventListener('click', () => {
+        const isOpen = menu.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', isOpen);
+    });
+
+    menu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            menu.classList.remove('open');
+            toggle.setAttribute('aria-expanded', false);
+        });
+    });
+</script>
+
 </body>
 
 </html>

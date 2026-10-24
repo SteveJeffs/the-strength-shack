@@ -195,6 +195,10 @@ h2 {
     color: var(--drab);
 }
 
+.holiday strong {
+    color: var(--drab);
+}
+
 .membership {
     padding: 1.5rem;
     max-width: 650px;

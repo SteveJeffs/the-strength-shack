@@ -530,6 +530,19 @@ address {
     text-align: center;
 }
 
+.credit {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--ash);
+    padding: 1rem;
+    border-top: 1px solid rgba(237, 233, 225,0.1);
+}
+
+.credit a {
+    color: var(--drab);
+    text-decoration: none;
+}
+
 section {
     scroll-margin-top: 90px;
 }
